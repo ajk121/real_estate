@@ -1,0 +1,31 @@
+.header {
+  height: 450px;
+  background: #ccc;
+}
+
+.logo {
+  background: #999;
+  width: 170px;
+}
+
+.nav {
+ /* float: right;*/
+  margin: 30px 30px 0 0;
+}
+
+.nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgba(0,0,0, 0.7);
+}
+
+h1 { 
+  font-size: 72px;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
