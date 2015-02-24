@@ -1,31 +1,56 @@
 .header {
-  height: 450px;
-  background: #ccc;
+  height: 650px;
+  background: url(img/background.jpg);
+  background-size: cover;
 }
 
 .logo {
-  background: #999;
-  width: 170px;
+  width: 350px;
+  float: left;
+  margin: 30px 0 0 30px ;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: rgba(0,0,0, 0.7);
 }
 
 .nav {
- /* float: right;*/
+  float: right;
   margin: 30px 30px 0 0;
 }
 
 .nav a {
   display: inline-block;
   margin-left: 20px;
-  font-weight: 700;
+  font-weight: 300;
   font-size: 14px;
   text-transform: uppercase;
   color: rgba(0,0,0, 0.7);
+  text-decoration: none;
 }
 
 h1 { 
   font-size: 72px;
-  font-weight: 700;
+  font-weight: 300;
   color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  text-align: center;
+  clear: both;
+  padding-top: 100px;
+
+}
+
+.span { 
+  display: inline-block;
+  padding: 0.5em 0.5em;
+  border: black solid 1px;
+}
+
+.sub_heading {
+  text-align: center;
+  font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.5em;
 }
