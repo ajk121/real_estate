@@ -54,3 +54,20 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.5em;
 }
+
+.footer {
+  height: 200px;
+  background: url(img/background.jpg);
+  background-size: cover;
+}
+
+.address {
+  width: 350px;
+  float: left;
+  margin: 30px 0 0 30px ;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: rgba(0,0,0, 0.7);
+}
