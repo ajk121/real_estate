@@ -1,0 +1,47 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+h1.logo {
+  font-size: 14px;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
+
+.fixed-navbar {
+  position: fixed;
+  width: 100%;
+  background: $white;
+  border-bottom: 1px solid $black;
+  top: 0;
+  padding: 20px 0 17px 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.open-off {
+  span {
+    color: $black;
+  }
+}
+
+section.boxes {
+  .box {
+    height: 400px;
+    background: $black;
+    color: $white;
+  }
+}
+
+
+footer {
+  background: lighten($black, 70%);
+  height: 300px;
+}
