@@ -59,7 +59,7 @@ h1 {
 
 .about {
   height: 200px;  
-  border-bottom: 1px solid #E9E9E9;
+  /*border-bottom: 1px solid #E9E9E9;*/
 
 }
 
@@ -67,7 +67,7 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.3em;
-  font-weight: 300;
+  font-weight: 100;
   padding-top: 20px;
 }
 
@@ -78,7 +78,8 @@ h1 {
   letter-spacing: 0.3em;
   font-weight: 100;
   font-size: 14px;
-  margin: 15 100 0 100;
+  margin: 5 100 0 100;  
+  
 }
 
 .sales {
