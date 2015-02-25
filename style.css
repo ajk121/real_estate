@@ -23,12 +23,13 @@
 
 .nav a {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 10px;
   font-weight: 300;
   font-size: 14px;
   text-transform: uppercase;
   color: rgba(0,0,0, 0.7);
   text-decoration: none;
+  letter-spacing: 0.3em;
 }
 
 h1 { 
@@ -65,19 +66,19 @@ h1 {
 .about h3{
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.3em;
   font-weight: 300;
+  padding-top: 20px;
 }
 
 .about p {
   /*max-width: 1200px;*/
   text-align: center;
   display: inline-block;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.3em;
   font-weight: 100;
   font-size: 14px;
-  margin-left: 50px;
-  margin-right: 50px
+  margin: 15 100 0 100;
 }
 
 .sales {
