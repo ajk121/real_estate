@@ -2,6 +2,7 @@
   height: 650px;
   background: url(img/background.jpg);
   background-size: cover;
+  border-bottom: 1px solid #E9E9E9;
 }
 
 .logo {
@@ -39,13 +40,13 @@ h1 {
   text-align: center;
   clear: both;
   padding-top: 100px;
-
 }
 
 .span { 
   display: inline-block;
   padding: 0.5em 0.5em;
   border: black solid 1px;
+  /*background-color: white;*/
 }
 
 .sub_heading {
@@ -53,6 +54,43 @@ h1 {
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.5em;
+}
+
+.about {
+  height: 200px;  
+  border-bottom: 1px solid #E9E9E9;
+
+}
+
+.about h3{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  font-weight: 300;
+}
+
+.about p {
+  /*max-width: 1200px;*/
+  text-align: center;
+  display: inline-block;
+  letter-spacing: 0.5em;
+  font-weight: 100;
+  font-size: 14px;
+  margin-left: 50px;
+  margin-right: 50px
+}
+
+.sales {
+  width: 50%;
+  height: 400px;
+}
+
+.sales h3{
+  text-align: center;
+  padding-top: 170px;
+  font-size: 15px;
+  letter-spacing: 0.5em;
+  font-weight: 200;
 }
 
 .footer {
