@@ -83,22 +83,86 @@ h1 {
 .sales {
   width: 50%;
   height: 400px;
+  display: inline-block;
+  float: left;
+  background-color: black;
+  opacity: 0.9;
 }
 
 .sales h3{
   text-align: center;
+  text-transform: uppercase;
   padding-top: 170px;
   font-size: 15px;
   letter-spacing: 0.5em;
   font-weight: 200;
+  color: white;
 }
 
-.footer {
+.letting {
+  width: 50%;
+  height: 400px;
+  display: inline-block;
+  float: right;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.letting h3{
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 170px;
+  font-size: 15px;
+  letter-spacing: 0.5em;
+  font-weight: 200;
+  color: white;
+}
+
+.management{
+  width: 50%;
+  height: 400px;
+  display: inline-block;
+  float: left;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.management h3{
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 170px;
+  font-size: 15px;
+  letter-spacing: 0.5em;
+  font-weight: 200;
+  color: white
+}
+
+.advisory {
+  width: 50%;
+  height: 400px;
+  display: inline-block;
+  float: right;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.advisory h3{
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 170px;
+  font-size: 15px;
+  letter-spacing: 0.5em;
+  font-weight: 200;
+  color: white
+}
+
+
+/*.footer {
   height: 200px;
   background: url(img/background.jpg);
   background-size: cover;
 }
-
+*/
 .address {
   width: 350px;
   float: left;
