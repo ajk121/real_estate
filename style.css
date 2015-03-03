@@ -57,11 +57,15 @@ h1 {
   letter-spacing: 0.5em;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .about {
  height: 225px;  
- /*width: 350px;*/
+ width: 100%;
  text-align: center;
- margin: 30px 30px 0 30px ;
  font-size: 14px;
  font-weight: 300;
  letter-spacing: 0.5em;
@@ -69,31 +73,30 @@ h1 {
  color: rgba(0,0,0, 0.7);
  text-align: justify;
  line-height: 1.2;
-
 }
 
 .about h3{
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.3em;
+  font-size: 19px;
   font-weight: 100;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-top: #ccc 1px solid;
-  border-bottom: #ccc 1px solid;
-
+  /*border-top: #2ecc71 1px solid;
+  border-bottom: #2ecc71 1px solid;*/
 }
 
 .about p {
-  /*max-width: 1200px;*/
-  text-align: center;
+  max-width: 100%;
+  text-align: justify;
   display: inline-block;
   letter-spacing: 0.5em;
   font-weight: 100;
   font-size: 14px;
-  margin: 10 200 0 200;
+  margin: 0 auto;
   text-transform: uppercase;  
-  
+  padding-top: 2.5em;
 }
 
 .service{
@@ -103,8 +106,12 @@ h1 {
 }
 
 .services {
-  background-color: black;
+  /*background-color: black;*/
   opacity: 0.9;
+  max-width: 90%;
+  margin: auto;
+  border top: black;
+  color: black;
 }
 
 
@@ -117,22 +124,34 @@ h1 {
   padding-bottom: 20px;
   /*border-top: #ccc 1px solid;
   border-bottom: #ccc 1px solid;*/
-  color: white;
+  color: black;
   opacity: 0.9;
 }
 
-.sales {
-  width: 50%;
+.servicess {
+  width: 49%;
   height: 400px;
+  padding: 0.5%;
   display: inline-block;
   float: left;
-  background-color: black;
-  opacity: 0.9;
   text-align: center;
   font-size: 12px;
 }
 
-.sales h3{
+.servicess > div{
+  display: table;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.servicess > div > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.servicess h3{
   text-align: center;
   text-transform: uppercase;
   font-size: 15px;
@@ -214,19 +233,19 @@ h1 {
 }
 
 .fa-usd{
-  color: white;
+  color: #2ecc71;
   margin: 0 auto; 
 
 }
 
 .fa-building-o {
-  color: white;
+  color: #2ecc71;
 }
 
 .fa-line-chart{
-  color: white;
+  color: #2ecc71;
 }
 
 .fa-home {
-  color: white;
+  color: #2ecc71;
 }
