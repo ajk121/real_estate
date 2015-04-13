@@ -127,9 +127,9 @@ h1 {
   text-align: justify;
   line-height: 1.2;
   text-align: center;
-    background-color: #fff; 
-   /* background: url(img/back.jpg);*/
-    padding-bottom: 35px;
+  background-color: #fff; 
+  /* background: url(img/back.jpg);*/
+  padding-bottom: 35px;
   
   margin-top: 85px;
   /*border-top: 1px solid #2ecc71;*/
@@ -144,7 +144,7 @@ h1 {
   /*background-color: grey;*/
   background-size: cover;
   opacity: 0.9;
- border-top: 1px solid black;
+  border-top: 1px solid black;
 }
 
 .line {
@@ -160,8 +160,10 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.3em;
   font-weight: 100;
-  padding-top: 60px;
+  padding-top: 20px;
   padding-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   color: black;
   opacity: 0.9;
   font-size: 30px;
@@ -274,7 +276,7 @@ h1 {
   opacity: 0.8; 
   }*/
 
-  .google_maps h3 {
+/*  .google_maps h3 {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.5em;
@@ -284,14 +286,28 @@ h1 {
     opacity: 0.9;
     float: left;
   }
-
+  */
 
   .footer{
-    height: 400px;
+    height: 800px;
     width: 100%;
   }
 
-  .address {
+  .contact_h3{
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 15px;
+   letter-spacing: 0.3em;
+   font-weight: 200;
+   color: black;
+   font-size: 30px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+ }
+
+  /*.address {
     width: 100%;
     height: 400px;
     margin: 30px 0 0 30px ;
@@ -307,7 +323,7 @@ h1 {
     line-height: 50px;
 
   }
-
+  */
 
   .clients {
     height: 750px;
@@ -322,8 +338,8 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 0.3em;
     font-weight: 100;
-    padding-top: 60px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     opacity: 0.9;
     font-size: 30px;
     font-family: 'Raleway', sans-serif;
@@ -337,7 +353,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 0.2em;
     font-weight: 100;
-    padding-top: 60px;
+    /*padding-top: 60px;*/
     padding-bottom: 20px;
     opacity: 0.9;
     font-size: 16px;
@@ -371,70 +387,120 @@ h1 {
   .list_1 {
     width: 100%;
     color: white;
-      text-transform: uppercase;
-      font-weight: 100;
-      padding-bottom: 20px;
-      opacity: 0.9;
-      font-size: 14px;
-      font-family: 'Raleway', sans-serif;
-      text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding-bottom: 20px;
+    opacity: 0.9;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
   }
 
+
+  .form {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 40px;
+    color: black;
+    border: 1px solid black;
+  }
 
   .contact_form {
-        float: right;
-        margin: 30px 30px 0 0;
-        padding-right: 110px;
+    text-align: center;
+    margin-bottom: 40px;
   }
 
-  .contact_form ul {
-      list-style: none;
-      font-weight: 300;
-      letter-spacing: 0.4em;
-      font-size: 14px;
-      text-transform: uppercase;
+  .contact_form input {
+    width: 400px;
+    height: 50px;
+    padding: 30px;
+    opacity: 0.8em;
+    border: 1px solid black;
+    letter-spacing: 0.3em;
+    border-radius: 5px;
   }
 
-  .copyright {
-    height: 70px;
-    background-color: black;
+  .contact_form textarea{
+    width: 400px;
+    height: 200px;
+    padding: 30px;
+    border: 1px solid black;
+    letter-spacing: 0.3em;
+    border-radius: 5px;
+  }
+
+  input::-webkit-input-placeholder {
+   color: grey;
+   text-transform: uppercase;
+   font-size: 12px;
+ }
+
+ input:-moz-placeholder { /* Firefox 18- */
+   color: #2ecc71;  
+ }
+
+ input::-moz-placeholder {  /* Firefox 19+ */
+   color: #2ecc71;  
+ }
+
+ input:-ms-input-placeholder {  
+   color: #2ecc71;  
+ }
+
+ textarea::-webkit-input-placeholder {
+   color: grey;
+   /*text-align: center;*/
+   text-transform: uppercase;
+   letter-spacing: 0.3em;
+   font-size: 12px;
+ } 
+
+ input[type="submit"] {
+   padding-bottom: 40px;
+   background-color: #2ecc71;
+   color: black;
+ }
+
+ .copyright {
+  height: 70px;
+  background-color: black;
 
 }
 
-  .copyright p {
-    width: 80%;
-    color: #fff;
-    padding-top: 30px;
-    padding-left: 110px;
-    font-family: 'Raleway', sans-serif;
-    margin: 30px 0 0 30px;
-    font-weight: 100;
-    letter-spacing: 0.5em;
-    font-size: 12px;
-    text-transform: uppercase;
-  }
+.copyright p {
+  width: 80%;
+  color: #fff;
+  padding-top: 30px;
+  padding-left: 110px;
+  font-family: 'Raleway', sans-serif;
+  margin: 30px 0 0 30px;
+  font-weight: 100;
+  letter-spacing: 0.5em;
+  font-size: 12px;
+  text-transform: uppercase;
+}
 
-  .fa-usd{
-    color: #fff;
-    margin: 0 auto; 
+.fa-usd{
+  color: #fff;
+  margin: 0 auto; 
 
-  }
+}
 
-  .fa-building-o {
-    color: #fff;
-  }
+.fa-building-o {
+  color: #fff;
+}
 
-  .fa-line-chart{
-    color: #fff;
-  }
+.fa-line-chart{
+  color: #fff;
+}
 
-  .fa-home {
-    color: #fff;
-  }
+.fa-home {
+  color: #fff;
+}
 
-  .fa-minus{
-    color: #2ecc71
-  }
+.fa-minus{
+  color: #2ecc71
+}
 
 /*.fa-arrow-circle-o-down {
   width: 100%;
