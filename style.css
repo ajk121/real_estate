@@ -297,6 +297,12 @@ h1 {
   /*background: url('img/background4.jpg');*/ 
 }
 
+#map-canvas {
+      height: 50%;
+      width: 50%;
+      margin: 0 auto;
+    }
+
 .details {
   width: 30%;
   display: inline-block;
