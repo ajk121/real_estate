@@ -161,9 +161,8 @@ h1 {
   letter-spacing: 0.3em;
   font-weight: 100;
   padding-top: 20px;
-  padding-bottom: 20px;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 0;
   color: black;
   opacity: 0.9;
   font-size: 30px;
@@ -203,6 +202,7 @@ h1 {
 .services_h3 {
   font-size: 30px;
   padding-top: 20px;
+  margin-bottom: 0;
 }
 
 .services {
@@ -279,9 +279,7 @@ h1 {
    color: black;
    font-size: 30px;
    padding-top: 20px;
-   /*padding-bottom: 20px;*/
-   margin-top: 30px;
-   margin-bottom: 30px;
+   margin-bottom: 0;
  }
 
  .address {
@@ -310,6 +308,7 @@ h1 {
 hr {
   width: 30px;
   border: 1px solid rgba(40,173,98,0.9);
+  margin-bottom: 30px;
 }
 
 .fa-map-marker:before{
@@ -377,7 +376,6 @@ hr {
   letter-spacing: 0.3em;
   font-weight: 100;
   padding-top: 50px;
-  padding-bottom: 50px;
   opacity: 0.9;
   font-size: 30px;
   font-family: 'Raleway', sans-serif;
@@ -517,21 +515,21 @@ input[type="submit"] {
 }
 
 .fa-usd{
-  color: #fff;
+  color: rgba(40,173,98,0.9);
   margin: 0 auto; 
 
 }
 
 .fa-building-o {
-  color: #fff;
+  color: rgba(40,173,98,0.9);
 }
 
 .fa-line-chart{
-  color: #fff;
+  color: rgba(40,173,98,0.9);
 }
 
 .fa-home {
-  color: #fff;
+  color: rgba(40,173,98,0.9);
 }
 
 .fa-minus{
