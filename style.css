@@ -309,6 +309,7 @@ hr {
   width: 30px;
   border: 1px solid rgba(40,173,98,0.9);
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .fa-map-marker:before{
@@ -536,14 +537,3 @@ input[type="submit"] {
   color: #2ecc71
 }
 
-/*.fa-arrow-circle-o-down {
-  width: 100%;
-  text-align: center;
-  padding-top: 360px;
-  font-size: 80px;
-  color: #2ecc71;
-}
-
-.fa-arrow-circle-o-down:before {
-  font-size: 50px;
-}*/
