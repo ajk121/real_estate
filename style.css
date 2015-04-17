@@ -78,6 +78,16 @@ header > h1 {
   color: #2ecc71;
 }
 
+.contact-info {
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin-top: 23%;
+  letter-spacing: 0.3em;
+  font-weight: 100;
+  font-family: 'Raleway', sans-serif;
+}
+
 
 
 h1 { 
@@ -241,7 +251,16 @@ h1 {
   color: black;
   font-family: 'Raleway', sans-serif;
   letter-spacing: 0.1em;
-  text-transform: justify;
+  text-align: justify;
+  padding: 10px;
+}
+
+.about_content p:nth-child(1) {
+  padding-right: 10px;
+}
+
+.about_content p:nth-child(2) {
+  padding-left: 10px;
 }
 
 .border_top{
