@@ -173,7 +173,12 @@ h2 {
  border: 0px;
 }
 
-.service-section button:hover{
+.service-section a {
+  text-decoration: none;
+  color: #6b6b6b;
+}
+
+.service-section a:hover {
   color: #2ecc71;
 }
 
@@ -529,4 +534,67 @@ textarea::-webkit-input-placeholder {
 .-details {
   margin: 0 auto;
   text-align: center;
+}
+
+#section7 {
+  width: 100%!important;
+  height: 400px!important;
+  background-color: #fff;
+  border-bottom: 1px solid black;
+}
+
+.-content {
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'Raleway',sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.-content p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  text-align: justify;
+}
+
+#section7 h2{
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+#section8 {
+ width: 100%!important;
+ height: 400px!important;
+ color: #fff
+}
+
+#section8 h2 {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+#section9 {
+  width: 100%!important;
+  height: 400px!important;
+  background-color: black;
+}
+
+#section9 h2{
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+#section10 {
+ width: 100%!important;
+ height: 400px!important;
+ color: #fff
+}
+
+#section10 h2{
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
 }
