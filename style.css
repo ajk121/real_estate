@@ -62,9 +62,25 @@ body {
   background-size: cover;
 }
 
+.contact-info-2 {
+  display: inline-block;
+  color: #fff; 
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  letter-spacing: 0.30em;
+  padding: 10px 0 0 10px; 
+}
+
+.contact-numbers {
+  padding-top: 300px;
+  text-align: center;
+}
+
+
 #section1 {
   width: 100%;
-  height: 450!important;
+  height: 450px!important;
   background-color: black!important;
 }
 
@@ -147,6 +163,7 @@ h2 {
 
 .services-box {
   width: 80%;
+  text-align: center;
   margin: 0 auto;
 }
 
@@ -606,167 +623,212 @@ textarea::-webkit-input-placeholder {
 
 /*------------------Media Queries--------------------*/
 
-@media only screen and (max-width : 1390px) {
 
-  /*------------services----------*/
+  /*@media only screen and (min-width : 320px) {*/
 
-}
 
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-  #menu li a {
-    font-size: 12px;
+    /*-----nav-----*/
+
+    /*#menu {
+      height: 100px;
+    }
+
+    .logo {
+      width: 100%;
+      padding-left: 0px;
+      margin: 0px;
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    .logo li a {
+      margin-left: 0px!important;
+    }
+
+    .links {
+      width: 100%;
+      float: none;
+      padding-right: 0px;
+      padding-top: 30px;
+      text-align: center;
+    }
+
+    .links li a {
+      font-size: 11px!important;
+      letter-spacing: 0.1em!important;
+      margin-left: 0px!important;
+    }
+*/
+
+    /*----section0----*/
+
+    /*#section0 {
+      height: 500px!important;
+    }
+
+    .main-header {
+      border: none;
+    }
+
+    .section0 h1 {
+      padding-top: 150px!important;
+    }
+
+    #section0 h1 .main-header {
+      font-size: 12px!important;
+      letter-spacing: 0.5em!important;
+    }
+
+    .sub-heading {
+      font-size: 12px;
+    }
+
+    .contact-numbers {
+      padding: 50px 0px 0px 0px;
+      display: block!important;
+    }
+
+    .contact-info-2 {
+      padding: 0px;
+      margin-top: 0px;
+    }*/
+
+    /*----services----*/
+
+    /*#section1 {
+      height: 1000px!important;
+    }
+
+    #section1 h4 {
+      font-size: 12px;
+    }
+
+    .services-box {
+      width: 90%!important;
+    }
+
+    .service-section {
+      width: 50%!important;
+    }
+*/
+
+    /*-----about-----*/
+  /*  #section2 {
+      height: 900px!important;
+    }
+
+    .facts {
+      display: none;
+    }
+
+    .about_content p {
+      display: block;
+      width: 70%;
+      margin: 0 auto;
+    }
+
+    .about_content p:nth-child(1) {
+      padding-right: 0px;
+    }
+
+    .about_content p:nth-child(2) {
+      padding-left: 0px;
+      padding-top: 10px;
+    }*/
+
+    /*-----clients-------*/
+
+    /*#section3 {
+      height: 550px!important;
+      background: none;
+    }
+
+    .client-top {
+      height: 550px!important;
+      background-color: black;
+    }
+
+    p.client_content {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .countries {
+      display: block;
+      width: 70%;
+      margin: 0 auto;
+      padding-left: 0px;
+      padding-top: 10px;
+    }
+
+    .countries li {
+      margin: 0px;
+
+    }*/
+
+    /*------contact us-------*/
+/*
+    form {
+      width: 70%;
+      text-align: center;
+    }
+
+    .contact-form {
+      text-align: center;
+
+    }
+    .contact-form label {
+      display: block;
+      float: none;
+      width: 100%;
+    }
+  
+    .contact-form label:nth-child(1) {
+      padding-right: 0px;
+    }
+
+    .contact-form label:nth-child(2) {
+      padding-left: 0px;
+    }*/
+  
+    /*---------find us------------*/
+/*
+    #section5 {
+      height: 1400px!important;
+    }
+
+    .-details {
+      width: 70%!important;
+    }
+
+    .details {
+      width: 100%;
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-top: 40px;
+      line-height: 20px;
+    }*/
+
+    /*----footer------*/
+
+    /*.logo-copy{
+      padding-left: 0px;
+      text-align: center;
+      font-size: 16px!important;
+    }
+
+    .social {
+      float: none!important;
+      width: 100%;
+      padding-right: 0px;
+      text-align: center;
+    }
+
+    .social li {
+      float: none!important;
+      text-align: center;
+      margin: 0 auto;
+    }*/
   }
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 1100px) {  
-  #menu {
-    height: 120px;
-  }
-
-  .links {
-    float: none;
-    padding-right: 0px;
-    margin-top: 80px;
-    width: 100%;
-    text-align: center;
-  }
-
-  .logo {
-    width: 100%;
-    text-align: center;
-    padding-left: 0px;
-    margin: 30px 0 0 0;
-  }
-
-  .logo li a{
-    font-size: 25px!important;
-    margin-left: 0px!important;
-  }
-
-  .main-header{
-    font-size: 35px!important;
-  }
-
-}
-
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 520px) {
-  .logo li a {
-    font-size: 23px!important;
-    margin-left: 0px!important;
-  }
-  .links li a {
-    font-size: 10px!important;
-  }
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 1000px) {
-  .main-header {
-    font-size: 30px!important;
-    padding: 0.5em 0.5em;
-  }
-
-  p.sub-heading {
-    font-size: 
-  }
-}
-
-@media only screen and (max-width : 900px) {
-  .main-header {
-    font-size: 30px!important;
-    padding: 0.5em 0.5em;
-    letter-spacing: 0.5em
-  }
-  p.sub-heading {
-    font-size: 14px!important;
-  }
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 785px) {
-  .main-header {
-    font-size: 28px!important;
-    padding: 0.5em 0.5em;
-    letter-spacing: 0.4em
-  }
-  p.sub-heading {
-    font-size: 12px!important;
-  }
-
-}
-
-@media only screen and (max-width : 670px) {
-  .main-header {
-    font-size: 23px!important;
-    padding: 0.5em 0.5em;
-    letter-spacing: 0.4em
-  }
-  p.sub-heading {
-    font-size: 10px!important;
-  }
-
-}
-
-
-/* Extra Small Devices, Phones */ 
-/*@media only screen and (max-width : 480px) {
- .logo li a {
-   font-size: 20px!important;
-   margin-left: 0px!important;
- }
- .links li a {
-   font-size: 10px!important;
-   margin-top: 5px!important;
-   margin-left: 0px!important;
- }
- }*/
-
- /* Custom, iPhone Retina */ 
- @media only screen and (max-width : 320px) {
-  .logo li a {
-    font-size: 15px!important;
-    margin-left: 0px!important;
-  }
-
-  .links {
-    margin-top: 70px; 
-  }
-  .links li a {
-    font-size: 8px!important;
-    margin-left: 0px!important;
-  }
-
-  .main-header {
-    font-size: 23px!important;
-    padding: 0.5em 0.5em;
-    letter-spacing: 0.4em
-  }
-  p.sub-heading {
-    font-size: 10px!important;
-  }
-
-  #section0 {
-    display: none;
-  }
-
-  #section1 {
-    height: 850px!important;
-  }
-  .service-section {
-    display: block;
-    width: 60%;
-    margin: 0 auto;
-    margin-top: 5px;
-    padding: 15px 7.5px 7.5px;
-  }
-
-  .service-section h4 {
-    font-size: 14px;
-  }
-}
-
 
 
