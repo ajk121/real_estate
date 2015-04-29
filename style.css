@@ -48,8 +48,6 @@ body {
   letter-spacing: 0.3em;
 }
 
-
-
 #section0 {
   background-image: url('img/background1.jpg');
   background-size: cover;
@@ -1076,15 +1074,21 @@ textarea::-webkit-input-placeholder {
     padding: 360px 0 0 0;
   }
 
+  .services-box {
+    width: 85%!important;
+  }
+
   .service-section {
-    width: 18%!important;
+    width: 16%!important;
   }
 
   #section1 {
     height: 400px!important;
   }
 
-
+  .about_content p {
+    width: 75%!important;
+  }
   /*.logo {
     float: left;
     text-align: left;
@@ -1135,6 +1139,10 @@ textarea::-webkit-input-placeholder {
 
     .services-box {
       width: 80%!important;
+    }
+
+    .service-section {
+      width: 18%!important;
     }
 
     #section2 {
