@@ -723,7 +723,7 @@ textarea::-webkit-input-placeholder {
     }
 
     .service-section {
-      width: 50%!important;
+      width: 60%!important;
     }
 
 
@@ -1261,6 +1261,33 @@ textarea::-webkit-input-placeholder {
 
     #section5 {
       height: 900px!important;
+    }
+
+    .-content {
+      width: 75%;
+    }
+
+    .footer {
+      height: 80px;
+    }
+
+    .logo-copy {
+      text-align: inherit;
+      padding-top: 30px;
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-left: 140px;
+      width: 500px;
+    }
+
+    .logo-copy p {
+      margin: 0px;
+      width: 500px;
+      margin-right: 0px!important;
+    }
+
+    .social li {
+      padding-left: 60px!important;
     }
 
   /*  #section3 {
