@@ -797,7 +797,7 @@ textarea::-webkit-input-placeholder {
       float: none;
       width: 100%;
     }
-    
+
     .contact-form label:nth-child(1) {
       padding-right: 0px;
     }
@@ -805,7 +805,7 @@ textarea::-webkit-input-placeholder {
     .contact-form label:nth-child(2) {
       padding-left: 0px;
     }
-    
+
     /*---------find us------------*/
 
     #section5 {
@@ -877,6 +877,32 @@ textarea::-webkit-input-placeholder {
     footer ul {
       padding-left: 0px!important;
     }
+    #section7 {
+      height: auto!important;
+      /*height: 645px!important;*/
+    }
+
+    #section7 p {
+      padding-bottom: 40px;
+    }
+
+    #section8 {
+      height: auto!important;
+      /*height: 810px!important;*/
+    }
+
+    #section8 p {
+      padding-bottom: 40px;
+    }
+    
+    #section10 {
+      height: auto!important;
+      /*height: 550px!important;*/
+    }
+
+    #section10 p {
+      padding-bottom: 40px;
+    }
   }
 
   @media only screen and (min-width : 360px) {
@@ -892,7 +918,7 @@ textarea::-webkit-input-placeholder {
     #section0 h1 .main-header {
       font-size: 14px!important;
     }
-    
+
     p.sub-heading {
       letter-spacing: 0.1em;
     }
@@ -904,6 +930,8 @@ textarea::-webkit-input-placeholder {
     #section2 {
       height: 800px!important;
     }
+
+
   }
 
   @media only screen and (min-width : 420px) {
@@ -931,6 +959,10 @@ textarea::-webkit-input-placeholder {
     .contact-numbers {
       padding: 140px 0 0 0;
     }
+
+    
+
+    
   }
 
   @media only screen and (min-width : 500px) {
@@ -959,6 +991,12 @@ textarea::-webkit-input-placeholder {
 
     .about_content p:nth-child(2) {
       margin-top: 25px!important;
+    }
+  }
+
+  @media only screen and (min-width : 550px) {
+    .-content {
+      width: 75%;
     }
   }
 
@@ -1047,6 +1085,10 @@ textarea::-webkit-input-placeholder {
     .contact-info-2 {
       font-size: 14px;
     }
+
+    .-content {
+      width: 70%;
+    }
   }
 
 
@@ -1082,6 +1124,11 @@ textarea::-webkit-input-placeholder {
     .about_content p:nth-child(2) {
       padding-top: 25px!important;  
     }
+    
+    .-content {
+      width: 65%;
+    }
+
   }
 
   @media only screen and (min-width : 900px) { 
@@ -1136,6 +1183,10 @@ textarea::-webkit-input-placeholder {
     float: right;*/
 
     /*}*/
+
+    .-content {
+      width: 60%;
+    } 
   }
 
   @media only screen and (min-width : 1050px) { 
